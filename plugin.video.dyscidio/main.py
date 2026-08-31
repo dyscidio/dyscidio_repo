@@ -1,3 +1,4 @@
+import xbmc
 import xbmcgui
 import xbmcplugin
 import xbmcaddon
@@ -61,6 +62,20 @@ TV_FILMS_CHANNELS = [
 ]
 
 
+REPOSITORIES = [
+    {
+        "name": "Balandro",
+        "url": "https://repobal.github.io/base/",
+        "icon": "icon.png"
+    },
+    {
+        "name": "Alfa",
+        "url": "https://alfa-addon.com/alfa/",
+        "icon": "icon.png"
+    }
+]
+
+
 # ============================================================
 # FUNCIONES
 # ============================================================
@@ -105,7 +120,24 @@ def add_stream(name, url, icon):
     )
 
 
+def add_external_link(name, url, icon):
+    item = xbmcgui.ListItem(label=name)
+
+    item.setArt({
+        "thumb": icon,
+        "icon": icon
+    })
+
+    xbmcplugin.addDirectoryItem(
+        handle=HANDLE,
+        url=build_url({"open": url}),
+        listitem=item,
+        isFolder=False
+    )
+
+
 def show_channels(channels):
+
     for channel in channels:
 
         icon = os.path.join(
@@ -122,13 +154,30 @@ def show_channels(channels):
     xbmcplugin.endOfDirectory(HANDLE)
 
 
+def show_repositories():
+
+    for repository in REPOSITORIES:
+
+        icon = os.path.join(
+            MEDIA_PATH,
+            repository["icon"]
+        )
+
+        add_external_link(
+            repository["name"],
+            repository["url"],
+            icon
+        )
+
+    xbmcplugin.endOfDirectory(HANDLE)
+
+
 # ============================================================
 # MENÚ PRINCIPAL
 # ============================================================
 
 if len(sys.argv) < 3 or not sys.argv[2]:
 
-    # Icono provisional para Links
     links_icon = os.path.join(
         MEDIA_PATH,
         "cnn.png"
@@ -144,7 +193,7 @@ if len(sys.argv) < 3 or not sys.argv[2]:
 
 
 # ============================================================
-# SUBMENÚ LINKS
+# RESTO DEL MENÚ
 # ============================================================
 
 else:
@@ -153,14 +202,27 @@ else:
         parse_qsl(sys.argv[2][1:])
     )
 
-    folder = params.get("folder")
+    # --------------------------------------------------------
+    # ABRIR ENLACE EXTERNO CON CHROME
+    # --------------------------------------------------------
+
+    if params.get("open"):
+
+        url = params["open"]
+
+        xbmc.executebuiltin(
+            'StartAndroidActivity(com.android.chrome,android.intent.action.VIEW,,%s)'
+            % url
+        )
+
+        xbmcplugin.endOfDirectory(HANDLE)
 
 
     # --------------------------------------------------------
     # LINKS
     # --------------------------------------------------------
 
-    if folder == "links":
+    elif params.get("folder") == "links":
 
         add_folder(
             "News",
@@ -180,6 +242,12 @@ else:
             os.path.join(MEDIA_PATH, "syfyus.png")
         )
 
+        add_folder(
+            "Repositorios",
+            "repositories",
+            os.path.join(MEDIA_PATH, "icon.png")
+        )
+
         xbmcplugin.endOfDirectory(HANDLE)
 
 
@@ -187,7 +255,7 @@ else:
     # NEWS
     # --------------------------------------------------------
 
-    elif folder == "news":
+    elif params.get("folder") == "news":
 
         show_channels(NEWS_CHANNELS)
 
@@ -196,7 +264,7 @@ else:
     # SPORTS
     # --------------------------------------------------------
 
-    elif folder == "sports":
+    elif params.get("folder") == "sports":
 
         show_channels(SPORTS_CHANNELS)
 
@@ -205,6 +273,15 @@ else:
     # TV-FILMS
     # --------------------------------------------------------
 
-    elif folder == "tvfilms":
+    elif params.get("folder") == "tvfilms":
 
         show_channels(TV_FILMS_CHANNELS)
+
+
+    # --------------------------------------------------------
+    # REPOSITORIOS
+    # --------------------------------------------------------
+
+    elif params.get("folder") == "repositories":
+
+        show_repositories()
