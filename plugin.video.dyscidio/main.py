@@ -15,6 +15,31 @@ ADDON_PATH = ADDON.getAddonInfo("path")
 MEDIA_PATH = os.path.join(ADDON_PATH, "resources", "media")
 
 
+# Canales de News
+CHANNELS = [
+    {
+        "name": "BBC World News",
+        "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
+        "icon": "bbc.png"
+    },
+    {
+        "name": "CBS News 24/7",
+        "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+        "icon": "cbs.png"
+    },
+    {
+        "name": "CNN International",
+        "url": "https://jmp2.uk/stvp-GBBD8000016N",
+        "icon": "cnn.png"
+    },
+    {
+        "name": "NBC News NOW",
+        "url": "https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8",
+        "icon": "nbc.png"
+    }
+]
+
+
 def build_url(params):
     return BASE_URL + "?" + "&".join(
         f"{key}={value}" for key, value in params.items()
@@ -55,9 +80,7 @@ def add_stream(name, url, icon):
     )
 
 
-# -------------------------
 # MENÚ PRINCIPAL
-# -------------------------
 
 if len(sys.argv) < 3 or not sys.argv[2]:
 
@@ -71,9 +94,7 @@ if len(sys.argv) < 3 or not sys.argv[2]:
     xbmcplugin.endOfDirectory(HANDLE)
 
 
-# -------------------------
 # NEWS
-# -------------------------
 
 else:
 
@@ -83,25 +104,17 @@ else:
 
     if params.get("folder") == "news":
 
-        # CNN International Europe
-        add_stream(
-            "CNN International",
-            "https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8",
-            os.path.join(MEDIA_PATH, "cnn.png")
-        )
+        for channel in CHANNELS:
 
-        # CBS News 24/7
-        add_stream(
-            "CBS News 24/7",
-            "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
-            os.path.join(MEDIA_PATH, "cbs.png")
-        )
+            icon = os.path.join(
+                MEDIA_PATH,
+                channel["icon"]
+            )
 
-        # Euronews Español
-        add_stream(
-            "Euronews Español",
-            "https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8",
-            os.path.join(MEDIA_PATH, "euronews.png")
-        )
+            add_stream(
+                channel["name"],
+                channel["url"],
+                icon
+            )
 
         xbmcplugin.endOfDirectory(HANDLE)
