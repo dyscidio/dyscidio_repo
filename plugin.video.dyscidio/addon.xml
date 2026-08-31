@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.dyscidio"
        name="Dyscidio"
-       version="1.0.0"
+       version="1.0.3"
        provider-name="Dyscidio">
 
     <requires>
@@ -14,9 +14,12 @@
     </extension>
 
     <extension point="xbmc.addon.metadata">
-        <summary>Mis enlaces</summary>
-        <description>Addon personal de Dyscidio.</description>
+        <summary>Enlaces personales de Dyscidio</summary>
+        <description>Addon personal para acceder rápidamente a una selección de enlaces.</description>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 
 </addon>
