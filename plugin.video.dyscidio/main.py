@@ -3,6 +3,8 @@ import xbmcplugin
 import xbmcaddon
 import sys
 import os
+from urllib.parse import parse_qsl
+
 
 HANDLE = int(sys.argv[1])
 BASE_URL = sys.argv[0]
@@ -53,47 +55,52 @@ def add_stream(name, url, icon):
     )
 
 
+# -------------------------
 # MENÚ PRINCIPAL
+# -------------------------
 
 if len(sys.argv) < 3 or not sys.argv[2]:
 
     news_icon = os.path.join(MEDIA_PATH, "cnn.png")
 
-    add_folder("News", news_icon)
+    add_folder(
+        "News",
+        news_icon
+    )
 
     xbmcplugin.endOfDirectory(HANDLE)
 
 
+# -------------------------
 # NEWS
+# -------------------------
 
 else:
 
     params = dict(
-        pair.split("=", 1)
-        for pair in sys.argv[2][1:].split("&")
-        if "=" in pair
+        parse_qsl(sys.argv[2][1:])
     )
 
     if params.get("folder") == "news":
 
-        # CNN
+        # CNN International Europe
         add_stream(
             "CNN International",
-            "URL_CNN_AQUI",
+            "https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8",
             os.path.join(MEDIA_PATH, "cnn.png")
         )
 
-        # CBS News
+        # CBS News 24/7
         add_stream(
             "CBS News 24/7",
             "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
             os.path.join(MEDIA_PATH, "cbs.png")
         )
 
-        # Euronews
+        # Euronews Español
         add_stream(
             "Euronews Español",
-            "URL_EURONEWS_AQUI",
+            "https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8",
             os.path.join(MEDIA_PATH, "euronews.png")
         )
 
