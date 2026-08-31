@@ -15,8 +15,11 @@ ADDON_PATH = ADDON.getAddonInfo("path")
 MEDIA_PATH = os.path.join(ADDON_PATH, "resources", "media")
 
 
-# Canales de News
-CHANNELS = [
+# ============================================================
+# CONTENIDO
+# ============================================================
+
+NEWS_CHANNELS = [
     {
         "name": "BBC World News",
         "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
@@ -40,13 +43,35 @@ CHANNELS = [
 ]
 
 
+SPORTS_CHANNELS = [
+    {
+        "name": "Sky Sports F1",
+        "url": "http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8",
+        "icon": "skysportsf1.png"
+    }
+]
+
+
+TV_FILMS_CHANNELS = [
+    {
+        "name": "Syfy US",
+        "url": "http://23.237.104.106:8080/USA_SYFY/index.m3u8",
+        "icon": "syfyus.png"
+    }
+]
+
+
+# ============================================================
+# FUNCIONES
+# ============================================================
+
 def build_url(params):
     return BASE_URL + "?" + "&".join(
         f"{key}={value}" for key, value in params.items()
     )
 
 
-def add_folder(name, icon):
+def add_folder(name, folder, icon):
     item = xbmcgui.ListItem(label=name)
 
     item.setArt({
@@ -56,7 +81,7 @@ def add_folder(name, icon):
 
     xbmcplugin.addDirectoryItem(
         handle=HANDLE,
-        url=build_url({"folder": "news"}),
+        url=build_url({"folder": folder}),
         listitem=item,
         isFolder=True
     )
@@ -80,21 +105,47 @@ def add_stream(name, url, icon):
     )
 
 
+def show_channels(channels):
+    for channel in channels:
+
+        icon = os.path.join(
+            MEDIA_PATH,
+            channel["icon"]
+        )
+
+        add_stream(
+            channel["name"],
+            channel["url"],
+            icon
+        )
+
+    xbmcplugin.endOfDirectory(HANDLE)
+
+
+# ============================================================
 # MENÚ PRINCIPAL
+# ============================================================
 
 if len(sys.argv) < 3 or not sys.argv[2]:
 
-    news_icon = os.path.join(MEDIA_PATH, "cnn.png")
+    # Icono provisional para Links
+    links_icon = os.path.join(
+        MEDIA_PATH,
+        "cnn.png"
+    )
 
     add_folder(
-        "News",
-        news_icon
+        "Links",
+        "links",
+        links_icon
     )
 
     xbmcplugin.endOfDirectory(HANDLE)
 
 
-# NEWS
+# ============================================================
+# SUBMENÚ LINKS
+# ============================================================
 
 else:
 
@@ -102,19 +153,58 @@ else:
         parse_qsl(sys.argv[2][1:])
     )
 
-    if params.get("folder") == "news":
+    folder = params.get("folder")
 
-        for channel in CHANNELS:
 
-            icon = os.path.join(
-                MEDIA_PATH,
-                channel["icon"]
-            )
+    # --------------------------------------------------------
+    # LINKS
+    # --------------------------------------------------------
 
-            add_stream(
-                channel["name"],
-                channel["url"],
-                icon
-            )
+    if folder == "links":
+
+        add_folder(
+            "News",
+            "news",
+            os.path.join(MEDIA_PATH, "bbc.png")
+        )
+
+        add_folder(
+            "Sports",
+            "sports",
+            os.path.join(MEDIA_PATH, "skysportsf1.png")
+        )
+
+        add_folder(
+            "TV-Films",
+            "tvfilms",
+            os.path.join(MEDIA_PATH, "syfyus.png")
+        )
 
         xbmcplugin.endOfDirectory(HANDLE)
+
+
+    # --------------------------------------------------------
+    # NEWS
+    # --------------------------------------------------------
+
+    elif folder == "news":
+
+        show_channels(NEWS_CHANNELS)
+
+
+    # --------------------------------------------------------
+    # SPORTS
+    # --------------------------------------------------------
+
+    elif folder == "sports":
+
+        show_channels(SPORTS_CHANNELS)
+
+
+    # --------------------------------------------------------
+    # TV-FILMS
+    # --------------------------------------------------------
+
+    elif folder == "tvfilms":
+
+        show_channels(TV_FILMS_CHANNELS)
