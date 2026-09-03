@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+    <addon id="repository.dyscidio"
+           name="Dyscidio Repo"
+           version="1.0.0"
+           provider-name="Dyscidio">
+        <extension point="xbmc.addon.repository"/>
+        <extension point="xbmc.addon.metadata">
+            <summary>Dyscidio Add-on Repository</summary>
+            <description>Repositorio de add-ons de Dyscidio.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="repository.balandro"
+           name="[COLOR aqua]Balandro[/COLOR] Repo"
+           version="4.0.1"
+           provider-name="Team Balandro">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.alfa-addon"
+           name="[COLOR red]Alfa Add-on[/COLOR] Repo"
+           version="1.0.8"
+           provider-name="Alfa Development Group">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.theblackghost"
+           name="BlackGhost Repo"
+           version="0.0.9"
+           provider-name="BlackGhost">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.CrashX"
+           name="CrashX Repository"
+           version="0.0.8"
+           provider-name="Team CrashX">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.bugatsinho"
+           name="Bugatsinho repository"
+           version="2.8"
+           provider-name="Bugatsinho">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.magellan"
+           name="Magellan Repository"
+           version="1.0.0"
+           provider-name="Magellan">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.loop"
+           name="[COLOR lime]Loop[/COLOR] Repository"
+           version="3.0.4"
+           provider-name="The Loop">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.dregs"
+           name="Dregs Repository"
+           version="2.36"
+           provider-name="@by_black_eagle">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.acestream-channels"
+           name="[COLOR FF00FFFF]Gunter25 Addons[/COLOR]"
+           version="1.2.3"
+           provider-name="Gunter25">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.jacktook"
+           name="Jacktook Add-on Repository"
+           version="0.0.5"
+           provider-name="Sam-Max">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.GTKing-Phoenix"
+           name="Repo GTKing PHOENIX TEAM"
+           version="21.0.0"
+           provider-name="GTKing PHOENIX TEAM">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.redwizard"
+           name="[COLOR red]The Red Repo[/COLOR]"
+           version="1.2.2"
+           provider-name="The Red Wizard">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.xbmc.org"
+           name="Kodi Add-on repository"
+           version="3.4.0"
+           provider-name="Team Kodi">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+    <addon id="repository.kodinerds"
+           name="Kodinerds Addon Repo"
+           version="7.0.1.7"
+           provider-name="Kodinerds">
+        <extension point="xbmc.addon.repository"/>
+    </addon>
+
+</addons>
