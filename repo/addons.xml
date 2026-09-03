@@ -111,4 +111,15 @@
         <extension point="xbmc.addon.repository"/>
     </addon>
 
+    <addon id="plugin.video.dyscidio"
+           name="Dyscidio"
+           version="1.0.6"
+           provider-name="Dyscidio">
+        <extension point="xbmc.python.pluginsource"/>
+        <extension point="xbmc.addon.metadata">
+            <summary>Enlaces personales de Dyscidio</summary>
+            <description>Addon personal para acceder rápidamente a una selección de enlaces.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
 </addons>
