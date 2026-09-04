@@ -113,7 +113,7 @@
 
     <addon id="plugin.video.dyscidio"
            name="Dyscidio"
-           version="1.0.6"
+           version="1.0.7"
            provider-name="Dyscidio">
 
         <requires>
