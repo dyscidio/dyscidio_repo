@@ -40,6 +40,21 @@ NEWS_CHANNELS = [
         "name": "NBC News NOW",
         "url": "https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8",
         "icon": "nbc.png"
+    },
+    {
+        "name": "Euronews Español",
+        "url": "https://jmp2.uk/rok-8acb4f9b8a255216966db355daaa1749.m3u8",
+        "icon": "eurosp.png"
+    },
+    {
+        "name": "Euronews World",
+        "url": "https://jmp2.uk/rok-dafd06b712a35fbe9935d4c04c2e8b53.m3u8",
+        "icon": "euroen.png"
+    },
+    {
+        "name": "N+ Univision 24/7",
+        "url": "https://jmp2.uk/rok-5a28fbf15c135b51b3638e8bd02d6577.m3u8",
+        "icon": "univision.png"
     }
 ]
 
@@ -140,10 +155,13 @@ def show_channels(channels):
 
     for channel in channels:
 
-        icon = os.path.join(
-            MEDIA_PATH,
-            channel["icon"]
-        )
+        icon = channel["icon"]
+
+        if not icon.startswith(("http://", "https://")):
+            icon = os.path.join(
+                MEDIA_PATH,
+                icon
+            )
 
         add_stream(
             channel["name"],
