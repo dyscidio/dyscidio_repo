@@ -136,4 +136,36 @@
 
     </addon>
 
+    <addon id="plugin.video.sporthdme"
+           name="SportHD"
+           version="0.1.89.4"
+           provider-name="Bugatsinho">
+
+        <requires>
+            <import addon="script.module.dateutil"/>
+            <import addon="script.module.six"/>
+            <import addon="script.module.requests" version="2.19.1"/>
+        </requires>
+
+        <extension point="xbmc.python.pluginsource"
+                   library="default.py">
+            <provides>video</provides>
+        </extension>
+
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">SportHD by Bugatsinho</summary>
+            <description lang="en">Sport Streams from SportHD.me</description>
+            <disclaimer lang="en">All the streams on this add-on are hosted on the third party site and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
+            <language>EN</language>
+            <license>GNU GPL, version 2</license>
+            <twitter>https://twitter.com/Bugatsinho</twitter>
+            <news>Fix Eventos En Vivo still crashing on accented event/server titles (e.g. Senal, Auto suffix) plus latent Python 2 unicode/ascii-codec issues found in a full encoding audit: server-name labels, the built-in LIVE EVENTS time label, and channel/language labels</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+
+    </addon>
+
 </addons>
