@@ -1,6 +1,9 @@
 
 #EXTM3U
 
+#EXTINF:0 tvg-country="ES" tvg-logo="" group-title="SPAIN",Antena 3 (1080p)
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge3/smil:7_HD.smil/manifest.m3u8?checkedby:iptvcat.com
+
 ############################################
 # 1. NOTICIAS
 ############################################
