@@ -1,0 +1,93 @@
+#EXTM3U
+
+# ==========================================
+# D Y S C I D I O
+# LISTA DE TELEVISION
+# ==========================================
+
+
+# ==========================================
+# GRUPO 1 - NOTICIAS
+# ==========================================
+
+# ESPAÑA
+
+#EXTINF:-1 tvg-id="24Horas.TV" tvg-name="24h" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Noticias",24 Horas RTVE
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+
+
+# ==========================================
+# CATALUÑA
+# ==========================================
+
+#EXTINF:-1 tvg-id="324.TV" tvg-name="3CatInfo" tvg-logo="https://pbs.twimg.com/profile_images/1968163923477098496/blka6O_j_200x200.jpg" group-title="Noticias",3CatInfo
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+
+
+# ==========================================
+# INTERNACIONALES - ESPAÑOL
+# ==========================================
+
+#EXTINF:-1 tvg-id="France24.es" group-title="Noticias",France 24 Español
+https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="DW.es" group-title="Noticias",DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-id="Euronews.TV" tvg-name="Euronews" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Noticias",Euronews Español
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+
+#EXTINF:-1 tvg-id="CGTN.es" group-title="Noticias",CGTN Español
+https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist1080p.m3u8
+
+
+# ==========================================
+# INTERNACIONALES - INGLÉS
+# ==========================================
+
+#EXTINF:-1 tvg-id="France24.en" group-title="Noticias",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="DW.en" group-title="Noticias",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera.en" group-title="Noticias",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-id="BBCNews.uk@Europe" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Noticias",BBC News Europe
+http://46.32.176.50/bbcworld/index.m3u8
+
+#EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Noticias",BBC News North America
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+
+
+# ==========================================
+# ESTADOS UNIDOS
+# ==========================================
+
+#EXTINF:-1 tvg-id="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" group-title="Noticias",CNN (En Vivo)
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+
+# ==========================================
+# GRUPO 2 - ENTRETENIMIENTO
+# ATRESMEDIA
+# ==========================================
+
+#EXTINF:-1 group-title="Entretenimiento" tvg-id="Antena 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Antena_3_%282017%29.svg/320px-Antena_3_%282017%29.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml",Antena 3
+https://livestartover-i.akamaized.net/antena3/master.m3u8
+
+#EXTINF:-1 tvg-id="La Sexta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/La_Sexta_%28A3M%29.svg/320px-La_Sexta_%28A3M%29.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",laSexta
+https://livestartover.atresmedia.com/lasexta/master.m3u8
+
+#EXTINF:-1 group-title="Entretenimiento" tvg-id="Neox" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Neox.svg/320px-Neox.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml",Neox
+https://livestartover-i.akamaized.net/neox/master.m3u8
+
+#EXTINF:-1 tvg-id="Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/320px-Nova.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Nova
+https://livestartover-i.akamaized.net/nova/master.m3u8
+
+#EXTINF:-1 tvg-id="Mega" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MEGA.svg/320px-MEGA.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Mega
+https://livestartover-i.akamaized.net/mega/master.m3u8
+
+#EXTINF:-1 tvg-id="Atreseries" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/AtreseriesLogo.svg/247px-AtreseriesLogo.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Atreseries
+https://livestartover-i.akamaized.net/geoa3series/master.m3u8
