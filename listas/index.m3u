@@ -66,7 +66,7 @@ https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b2500
 
 # ANTENA 3
 #EXTINF:-1 tvg-id="Antena3.es" group-title="Entretenimiento",Antena 3
-http://177.10.184.193:8000/play/a06a/index.m3u8
+https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge3/smil:7_HD.smil/manifest.m3u8?checkedby:iptvcat.com
 
 # LA SEXTA
 #EXTINF:-1 tvg-id="LaSexta.es" group-title="Entretenimiento",La Sexta
