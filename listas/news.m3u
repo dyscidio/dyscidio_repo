@@ -1,0 +1,39 @@
+#EXTM3U
+
+# ===== ESPAÑA =====
+#EXTINF:-1 tvg-id="24h.es" group-title="Noticias | España",Canal 24 Horas RTVE
+https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
+
+# ===== CATALUÑA =====
+#EXTINF:-1 tvg-id="324.cat" group-title="Noticias | Cataluña",3CatInfo
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+
+# ===== INTERNACIONALES EN ESPAÑOL =====
+#EXTINF:-1 tvg-id="France24.es" group-title="Noticias | Español",France 24 Español
+https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="DW.es" group-title="Noticias | Español",DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-id="Euronews.es" group-title="Noticias | Español",Euronews Español
+https://rakuten-euronews-4-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CGTN.es" group-title="Noticias | Español",CGTN Español
+https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist1080p.m3u8
+
+# ===== INTERNACIONALES EN INGLÉS =====
+#EXTINF:-1 tvg-id="France24.en" group-title="Noticias | Inglés",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="DW.en" group-title="Noticias | Inglés",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera.en" group-title="Noticias | Inglés",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+
+# ===== ESTADOS UNIDOS =====
+#EXTINF:-1 tvg-id="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" group-title="Noticias | USA",CNN (En Vivo)
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 tvg-id="CBS-NY" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="Noticias | USA",CBS News New York
+https://dai.google.com/linear/hls/pa/event/jeTDC610T-OSPdiWhcl0Pg/stream/f337899f-fe83-4e21-8b91-5e7821814f51:BRU/master.m3u8
