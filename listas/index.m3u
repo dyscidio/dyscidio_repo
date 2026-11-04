@@ -1,8 +1,8 @@
 
 #EXTM3U
 
-#EXTINF:0 tvg-country="ES" tvg-logo="https://i.imgur.com/USbmwiC.png" group-title="SPAIN",Antena 3 (720p)
-http://185.189.225.150:85/Antena3HD/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="Antena3.es@National" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png" group-title="General",Antena 3
+https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
 
 ############################################
 # 1. NOTICIAS
