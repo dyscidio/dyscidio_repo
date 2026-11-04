@@ -1,7 +1,10 @@
 
 #EXTM3U
-#EXTINF:-1 tvg-id="Antena3Internacional.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="General",Antena 3 Internacional (1080p)
-http://38.252.238.18:8000/play/a04a/index.m3u8
+
+#EXTINF:-1,ES: LA SEXTA FullHD
+http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/49863
+#EXTINF:-1,ES: LA SEXTA HD
+http://server.sibfungold.info:8080/pacha-man1/e0VaVPskUa/2256
 
 ############################################
 # 1. NOTICIAS
@@ -67,41 +70,23 @@ https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b2500
 ############################################
 
 # ANTENA 3
-#EXTINF:-1 tvg-id="Antena3.es" group-title="Entretenimiento",Antena 3
-https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge3/smil:7_HD.smil/manifest.m3u8?checkedby:iptvcat.com
 
 # LA SEXTA
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="Entretenimiento",La Sexta
-http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
 
 # NEOX
-#EXTINF:-1 tvg-id="Neox.es" group-title="Entretenimiento",Neox
-http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
 
 # NOVA
-#EXTINF:-1 tvg-id="Nova.es" group-title="Entretenimiento",Nova
-http://40.160.24.55/Nova/index.m3u8
 
 # MEGA
-#EXTINF:-1 tvg-id="Mega.es" group-title="Entretenimiento",Mega
-http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
 
 # ATRESERIES - ENLACE ANTERIOR
-#EXTINF:-1 tvg-id="Atreseries.es" group-title="Entretenimiento",Atreseries
-https://atresplayers-i.akamaized.net/geoa3seriesmpp/bitrate_3.m3u8
 
 # FDF
-#EXTINF:-1 tvg-id="FDF.es" group-title="Entretenimiento",FDF
-https://mdslivehls-i.akamaihd.net/hls/live/571650/fdf/bitrate_1.m3u8
 
 
 ############################################
 # 3. Deportes
 ############################################
-
-#EXTINF:-1 tvg-id="F1" group-title="Deportes",F1
-http://fortv.cc:8080/live/A5aaXj/235081/35244.m3u8
-
 
 ############################################
 # 4. KIDS - CANALES LINEALES
@@ -124,5 +109,3 @@ https://cdn-canalextremadura.watchity.net/fast2/master.m3u8
 https://183.bozztv.com/ssh101/ssh101/pequeradiotv/playlist.m3u8
 
 # BOING
-#EXTINF:-1 tvg-id="Boing.es" group-title="Kids",Boing
-https://mdslivehls-i.akamaihd.net/hls/live/571647/boing/bitrate_1.m3u8
