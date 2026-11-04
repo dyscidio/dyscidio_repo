@@ -50,12 +50,11 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.en" group-title="Noticias",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1 tvg-id="BBC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/500px-BBC_News_2022_%28Alt%29.svg.png" tvg-id="BBCNews.uk" tvg-chno="231" tvg-country="GB" group-title="UK",BBC News
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/500px-BBC_News_2022_%28Alt%29.svg.png" tvg-chno="231" tvg-country="GB" group-title="Noticias",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Noticias",BBC News North America
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
-
 
 # ==========================================
 # ESTADOS UNIDOS
@@ -64,44 +63,38 @@ http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" group-title="Noticias",CNN (En Vivo)
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 
-
 # ==========================================
 # GRUPO 2 - ENTRETENIMIENTO
 # ATRESMEDIA
 # ==========================================
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-id="Antena 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Antena_3_%282017%29.svg/320px-Antena_3_%282017%29.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml",Antena 3
+#EXTINF:-1 tvg-id="Antena3.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Antena_3_%282017%29.svg/320px-Antena_3_%282017%29.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Antena 3
 https://livestartover-i.akamaized.net/antena3/master.m3u8
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-id="La Sexta" tvg-logo="https://i.imgur.com/b59MxgM.png" tvg-id="LaSexta.es" tvg-chno="6" tvg-country="ES" group-title="Spain",La Sexta
+#EXTINF:-1 tvg-id="LaSexta.es" tvg-chno="6" tvg-country="ES" tvg-logo="https://i.imgur.com/b59MxgM.png" group-title="Entretenimiento",La Sexta
 http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-id="Neox" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/neox-es.png" tvg-id="Neox.es" tvg-chno="11" tvg-country="ES" group-title="Spain",Neox Ⓢ
+#EXTINF:-1 tvg-id="Neox.es" tvg-chno="11" tvg-country="ES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/neox-es.png" group-title="Entretenimiento",Neox Ⓢ
 http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-id="Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/320px-Nova.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Nova
+#EXTINF:-1 tvg-id="Nova.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/320px-Nova.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Nova
 https://livestartover-i.akamaized.net/nova/master.m3u8
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-id="Mega" tvg-logo="https://i.imgur.com/Udrt2eK.png" tvg-id="Mega.es" tvg-chno="13" tvg-country="ES" group-title="Spain",Mega Ⓢ
+#EXTINF:-1 tvg-id="Mega.es" tvg-chno="13" tvg-country="ES" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="Entretenimiento",Mega Ⓢ
 http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-id="Atreseries" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/atreseries-es.png" tvg-id="Atreseries.es" tvg-chno="14" tvg-country="ES" group-title="Spain",Atreseries Ⓢ
+#EXTINF:-1 tvg-id="Atreseries.es" tvg-chno="14" tvg-country="ES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/atreseries-es.png" group-title="Entretenimiento",Atreseries Ⓢ
 http://181.78.109.48:8000/play/a00l/index.m3u8
-
 
 # ==========================================
 # GRUPO 3 - T5
 # TELECINCO
 # ==========================================
 
-#EXTINF:-1 group-title="T5" tvg-id="Telecinco" tvg-logo="https://i.imgur.com/JECsKdk.png" tvg-id="Telecinco.es" tvg-chno="5" tvg-country="ES" group-title="Spain",Telecinco
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-chno="5" tvg-country="ES" tvg-logo="https://i.imgur.com/JECsKdk.png" group-title="T5",Telecinco
 https://livehlsdai-i.akamaihd.net/hls/live/571640/telecinco/bitrate_1.m3u8
-
 
 # ==========================================
 # GRUPO 4 - KIDS
 # KIDS
 # ==========================================
-
-
-
