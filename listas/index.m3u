@@ -1,3 +1,4 @@
+
 #EXTM3U
 
 ############################################
@@ -16,8 +17,9 @@ https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
 #EXTINF:-1 tvg-id="DWEspanol.de" group-title="Noticias",DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr" group-title="Noticias",Euronews Español
-https://euronews-live-spa-es.fast.rakuten.tv/master.m3u8
+# EURONEWS - ENLACE ORIGINAL RECUPERADO
+#EXTINF:-1 tvg-id="Euronews.TV" tvg-name="Euronews" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Noticias",Euronews Español
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
 
 #EXTINF:-1 tvg-id="CGTNSpanish.cn" group-title="Noticias",CGTN Español
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
@@ -31,7 +33,7 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/strea
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="Noticias",Al Jazeera English
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 
-# BBC NEWS - ENLACE ORIGINAL RECUPERADO
+# BBC NEWS
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="Noticias",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
@@ -88,25 +90,33 @@ https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b2500
 # 2. ENTRETENIMIENTO - ATRESMEDIA
 ############################################
 
-# Enlaces alternativos comunitarios, pendientes de comprobar
-
+# ANTENA 3
 #EXTINF:-1 tvg-id="Antena3.es" group-title="Entretenimiento",Antena 3
-https://atresplayerp-i.akamaized.net/antena3mpp/bitrate_3.m3u8
+http://177.10.184.193:8000/play/a06a/index.m3u8
 
+# LA SEXTA
 #EXTINF:-1 tvg-id="LaSexta.es" group-title="Entretenimiento",La Sexta
-https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
 
+# NEOX
 #EXTINF:-1 tvg-id="Neox.es" group-title="Entretenimiento",Neox
-https://atresplayers-i.akamaized.net/geoneoxmpp/bitrate_3.m3u8
+http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
 
+# NOVA
 #EXTINF:-1 tvg-id="Nova.es" group-title="Entretenimiento",Nova
-https://atresplayers-i.akamaized.net/geonovampp/bitrate_3.m3u8
+http://40.160.24.55/Nova/index.m3u8
 
+# MEGA
 #EXTINF:-1 tvg-id="Mega.es" group-title="Entretenimiento",Mega
-https://atresplayers-i.akamaized.net/geomegampp/bitrate_3.m3u8
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
 
+# ATRESERIES - ENLACE ANTERIOR
 #EXTINF:-1 tvg-id="Atreseries.es" group-title="Entretenimiento",Atreseries
 https://atresplayers-i.akamaized.net/geoa3seriesmpp/bitrate_3.m3u8
+
+# FDF
+#EXTINF:-1 tvg-id="FDF.es" group-title="Entretenimiento",FDF
+https://mdslivehls-i.akamaihd.net/hls/live/571650/fdf/bitrate_1.m3u8
 
 
 ############################################
@@ -137,51 +147,6 @@ https://cdn-canalextremadura.watchity.net/fast2/master.m3u8
 #EXTINF:-1 group-title="Kids",Pequeradio TV
 https://183.bozztv.com/ssh101/ssh101/pequeradiotv/playlist.m3u8
 
-
-############################################
-# 5. KIDS - CONTENIDO INFANTIL YOUTUBE
-############################################
-# IMPORTANTE:
-# Son direcciones de canales de YouTube.
-# No son streams M3U8 convencionales.
-# Su reproducción depende de la compatibilidad de Dyscidio.
-
-# POCOYÓ
-#EXTINF:-1 group-title="Kids",Pocoyó
-https://www.youtube.com/channel/UCnB5W_ZJgiDFnklejRGADxw/live
-
-# BLUEY
-#EXTINF:-1 group-title="Kids",Bluey
-https://www.youtube.com/channel/UCYvpkMpzo1S_rmcj2Axmbig/live
-
-# DISNEY CHANNEL ESPAÑA
-#EXTINF:-1 group-title="Kids",Disney Channel España
-https://www.youtube.com/channel/UCayRpbmAiiuU50OpDPVSjwA/live
-
-# WB KIDS LATINO
-#EXTINF:-1 group-title="Kids",WB Kids Latino
-https://www.youtube.com/channel/UCtW5GPO_DZon6zVAuinvwxA/live
-
-# CARTOON NETWORK LATINO
-#EXTINF:-1 group-title="Kids",Cartoon Network Latino
-https://www.youtube.com/channel/UCQySZQ6rrgJXRuonMwIIGMA/live
-
-# NICK JR.
-#EXTINF:-1 group-title="Kids",Nick Jr.
-https://www.youtube.com/channel/UCaEb7kPgpldLuEzCRzFXsLw/live
-
-# LEGO FRIENDS
-#EXTINF:-1 group-title="Kids",LEGO Friends
-https://www.youtube.com/channel/UCP-Ng5SXUEt0VE-TXqRdL6g/live
-
-# TALKING TOM AND FRIENDS
-#EXTINF:-1 group-title="Kids",Talking Tom and Friends
-https://www.youtube.com/channel/UCC9R-cxQeOpPhq2lAru0V8w/live
-
-# LITTLE BABY BUM
-#EXTINF:-1 group-title="Kids",Little Baby Bum
-https://www.youtube.com/channel/UCHicabXz9rUMWLcdMqBtbxQ/live
-
-# MASHA Y EL OSO
-#EXTINF:-1 group-title="Kids",Masha y el Oso
-https://www.youtube.com/channel/UCuSo4gcgxJRf4Bzu43wwVyg/live
+# BOING
+#EXTINF:-1 tvg-id="Boing.es" group-title="Kids",Boing
+https://mdslivehls-i.akamaihd.net/hls/live/571647/boing/bitrate_1.m3u8
