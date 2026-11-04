@@ -1,9 +1,11 @@
+
 #EXTM3U
 
 # ==========================================
 # D Y S C I D I O
 # LISTA DE TELEVISION
 # ==========================================
+
 
 # ==========================================
 # GRUPO 1 - NOTICIAS
@@ -14,16 +16,12 @@
 #EXTINF:-1 tvg-id="24Horas.TV" tvg-name="24h" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Noticias",24 Horas RTVE
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 
-# ==========================================
 # CATALUÑA
-# ==========================================
 
 #EXTINF:-1 tvg-id="324.TV" tvg-name="3CatInfo" tvg-logo="https://pbs.twimg.com/profile_images/1968163923477098496/blka6O_j_200x200.jpg" group-title="Noticias",3CatInfo
 https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 
-# ==========================================
 # INTERNACIONALES - ESPAÑOL
-# ==========================================
 
 #EXTINF:-1 tvg-id="France24.es" group-title="Noticias",France 24 Español
 https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
@@ -37,9 +35,7 @@ https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b74
 #EXTINF:-1 tvg-id="CGTN.es" group-title="Noticias",CGTN Español
 https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist1080p.m3u8
 
-# ==========================================
 # INTERNACIONALES - INGLÉS
-# ==========================================
 
 #EXTINF:-1 tvg-id="France24.en" group-title="Noticias",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
@@ -50,44 +46,112 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.en" group-title="Noticias",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/500px-BBC_News_2022_%28Alt%29.svg.png" tvg-chno="231" tvg-country="GB" group-title="Noticias",BBC News
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+# BBC NEWS
 
-#EXTINF:-1 tvg-id="BBCRadioWorldService.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcws-epg.png" tvg-chno="11" tvg-country="GB" group-title="UK",BBC World Service
-http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-chno="231" tvg-country="GB" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/500px-BBC_News_2022_%28Alt%29.svg.png" group-title="Noticias",BBC News Europe
+http://46.32.176.50/bbcworld/index.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Noticias",BBC News North America
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 
-# ==========================================
 # ESTADOS UNIDOS
-# ==========================================
 
 #EXTINF:-1 tvg-id="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" group-title="Noticias",CNN (En Vivo)
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+# AMPLIACIÓN INTERNACIONAL
+
+#EXTINF:-1 tvg-id="NBCNewsNOW.us" group-title="Noticias",NBC News NOW
+https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
+
+#EXTINF:-1 tvg-id="ReutersTV.us" group-title="Noticias",Reuters TV
+https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CBSNews.us" group-title="Noticias",CBS News
+https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
+
+#EXTINF:-1 tvg-id="ABCNewsLive.us" group-title="Noticias",ABC News Live
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+
+#EXTINF:-1 tvg-id="LiveNOWFromFOX.us" group-title="Noticias",LiveNOW from FOX
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ScrippsNews.us" group-title="Noticias",Scripps News
+https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
+
+#EXTINF:-1 tvg-id="USATODAY.us" group-title="Noticias",USA Today
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+
+# EUROPA
+
+#EXTINF:-1 tvg-id="TheGuardian.uk" group-title="Noticias",The Guardian
+https://rakuten-guardian-1-ie.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="i24NEWSEnglishWorld.il" group-title="Noticias",i24 News English
+https://bcovlive-a.akamaihd.net/6e3dd61ac4c34d6f8fb9698b565b9f50/eu-central-1/5377161796001/playlist-all_dvr.m3u8
+
+#EXTINF:-1 tvg-id="TalkTV.uk" group-title="Noticias",TalkTV
+https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RT.ru" group-title="Noticias",RT News
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+
+# ASIA
+
+#EXTINF:-1 tvg-id="IndiaToday.in" group-title="Noticias",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TaiwanPlusTV.tw" group-title="Noticias",Taiwan Plus
+https://ythls.armelin.one/channel/UC7c6rvyAZLpKGk8ttVnpnLA.m3u8
+
+#EXTINF:-1 tvg-id="MetroGlobeNetwork.id" group-title="Noticias",Metro Globe Network
+https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
+
+# AUSTRALIA
+
+#EXTINF:-1 tvg-id="tickerNews.au" group-title="Noticias",Ticker News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01486-tickernews-tickernewsweb-ono/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SkyNewsAustralia.au" group-title="Noticias",Sky News Australia
+https://i.mjh.nz/sky-news-now.m3u8
+
+# CANADÁ
+
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca" group-title="Noticias",CBC News Network
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="GlobalNews.ca" group-title="Noticias",Global News
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
+
+# ÁFRICA
+
+#EXTINF:-1 tvg-id="SABCNews.gh" group-title="Noticias",SABC News
+https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b250000_t64MjQwcA==.m3u8
+
 
 # ==========================================
 # GRUPO 2 - ENTRETENIMIENTO
 # ATRESMEDIA
 # ==========================================
 
-#EXTINF:-1 tvg-id="Antena3.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Antena_3_%282017%29.svg/320px-Antena_3_%282017%29.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Antena 3
+#EXTINF:-1 tvg-id="Antena3.es@National" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Antena_3_%282017%29.svg/320px-Antena_3_%282017%29.svg.png" group-title="Entretenimiento",Antena 3
 https://livestartover-i.akamaized.net/antena3/master.m3u8
 
 #EXTINF:-1 tvg-id="LaSexta.es" tvg-chno="6" tvg-country="ES" tvg-logo="https://i.imgur.com/b59MxgM.png" group-title="Entretenimiento",La Sexta
 http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
 
-#EXTINF:-1 tvg-id="Neox.es" tvg-chno="11" tvg-country="ES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/neox-es.png" group-title="Entretenimiento",Neox Ⓢ
+#EXTINF:-1 tvg-id="Neox.es" tvg-chno="11" tvg-country="ES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/neox-es.png" group-title="Entretenimiento",Neox
 http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
 
-#EXTINF:-1 tvg-id="Nova.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/320px-Nova.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml" group-title="Entretenimiento",Nova
+#EXTINF:-1 tvg-id="Nova.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Nova.svg/320px-Nova.svg.png" group-title="Entretenimiento",Nova
 https://livestartover-i.akamaized.net/nova/master.m3u8
 
-#EXTINF:-1 tvg-id="Mega.es" tvg-chno="13" tvg-country="ES" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="Entretenimiento",Mega Ⓢ
+#EXTINF:-1 tvg-id="Mega.es" tvg-chno="13" tvg-country="ES" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="Entretenimiento",Mega
 http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
 
-#EXTINF:-1 tvg-id="Atreseries.es" tvg-chno="14" tvg-country="ES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/atreseries-es.png" group-title="Entretenimiento",Atreseries Ⓢ
+#EXTINF:-1 tvg-id="Atreseries.es" tvg-chno="14" tvg-country="ES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/atreseries-es.png" group-title="Entretenimiento",Atreseries
 http://181.78.109.48:8000/play/a00l/index.m3u8
+
 
 # ==========================================
 # GRUPO 3 - T5
@@ -97,7 +161,30 @@ http://181.78.109.48:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="Telecinco.es" tvg-chno="5" tvg-country="ES" tvg-logo="https://i.imgur.com/JECsKdk.png" group-title="T5",Telecinco
 https://livehlsdai-i.akamaihd.net/hls/live/571640/telecinco/bitrate_1.m3u8
 
+
 # ==========================================
 # GRUPO 4 - KIDS
-# KIDS
+# CANALES INFANTILES
 # ==========================================
+
+# ESPAÑA - CASTELLANO
+
+#EXTINF:-1 tvg-id="Clan.es" tvg-name="Clan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Clan_2026.svg/960px-Clan_2026.svg.png" group-title="Kids",Clan
+https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8
+
+#EXTINF:-1 tvg-id="PlanetaKids.es" tvg-name="Planeta Kids" tvg-logo="https://i.imgur.com/CMRkI5N.jpg" group-title="Kids",Planeta Kids
+https://deaplaneta-planetakidz-1-es.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PequeTV.es" tvg-name="PequeTV" tvg-logo="https://static.wixstatic.com/media/76b12f_c9171baf0d3145ea986102ebda0042e5~mv2.png" group-title="Kids",PequeTV
+https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
+
+#EXTINF:-1 tvg-id="InfantilCanalExtremadura" group-title="Kids",Infantil Canal Extremadura
+https://cdn-canalextremadura.watchity.net/fast2/master.m3u8
+
+#EXTINF:-1 tvg-id="Pequeradio.es" group-title="Kids",Pequeradio TV
+https://183.bozztv.com/ssh101/ssh101/pequeradiotv/playlist.m3u8
+
+# CATALUÑA - CATALÀ
+
+#EXTINF:-1 tvg-id="SX3.TV" tvg-name="SX3" group-title="Kids",SX3 (Català)
+https://directes-tv-cat.3catdirectes.cat/live-origin/super3-hls/master.m3u8
