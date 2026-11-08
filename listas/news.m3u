@@ -15,9 +15,6 @@ https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
 #EXTINF:-1 tvg-id="324.cat" group-title="Noticias | Cataluña",3CatInfo
 https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 
-#EXTINF:-1 tvg-id="3CatInfo.TV" group-title="Noticias",3CatInfo
-https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
-
 # ===== INTERNACIONALES EN ESPAÑOL =====
 #EXTINF:-1 tvg-id="France24Espanol.fr" group-title="Noticias",France 24 Español
 https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
