@@ -12,6 +12,15 @@ https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8
 #EXTINF:-1 tvg-id="SX3.es" group-title="Kids",SX3
 https://directes-tv-cat.3catdirectes.cat/live-origin/super3-hls/master.m3u8
 
+#EXTINF:-1 tvg-id="Pluto TV Junior" group-title="Kids",Pluto TV Junior
+https://jmp2.uk/plu-5f1aa9bcd8160700076d45d1.m3u8
+
+#EXTINF:-1 tvg-id="Pluto TV Kids" group-title="Kids",Pluto TV Kids
+https://jmp2.uk/plu-5f1aab1d29b39600073e243f.m3u8
+
+#EXTINF:-1 tvg-id="Pluto TV Kids Classics" group-title="Kids",Pluto TV Kids Classics
+https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
+
 # INFANTIL CANAL EXTREMADURA
 #EXTINF:-1 tvg-id="Infantil Canal Extremadura" group-title="Kids",Infantil Canal Extremadura
 https://cdn-canalextremadura.watchity.net/fast2/master.m3u8
@@ -43,15 +52,6 @@ https://jmp2.uk/plu-6a31544f2c1c785c1138dbb1.m3u8
 
 #EXTINF:-1 tvg-id="Pippi Calzaslargas" group-title="Kids",Pippi Calzaslargas
 https://jmp2.uk/plu-6a0c25fe09705ebdf7e4599a.m3u8
-
-#EXTINF:-1 tvg-id="Pluto TV Junior" group-title="Kids",Pluto TV Junior
-https://jmp2.uk/plu-5f1aa9bcd8160700076d45d1.m3u8
-
-#EXTINF:-1 tvg-id="Pluto TV Kids" group-title="Kids",Pluto TV Kids
-https://jmp2.uk/plu-5f1aab1d29b39600073e243f.m3u8
-
-#EXTINF:-1 tvg-id="Pluto TV Kids Classics" group-title="Kids",Pluto TV Kids Classics
-https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
 
 #EXTINF:-1 tvg-id="Rugrats" group-title="Kids",Rugrats
 https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8
