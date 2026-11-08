@@ -49,3 +49,6 @@ https://rtvelivestream.akamaized.net/la2_dvr.m3u8
 
 #EXTINF:-1 tvg-id="24Horas.TV" group-title="Noticias",24 Horas RTVE
 https://ztnr.rtve.es/ztnr/1694255.m3u8
+
+#EXTINF:-1 tvg-name="LA SEXTA HD" group-title="TDT",LA SEXTA HD
+http://109.205.187.47:8008/sunshine/[TOKEN_TEMPORAL]/hls/index.m3u8
