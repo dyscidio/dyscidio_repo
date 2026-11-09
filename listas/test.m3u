@@ -1,0 +1,28 @@
+EXTM3U
+
+############################################
+# CANALES
+############################################
+
+# Pruebas
+
+#EXTINF:-1 tvg-id="5cb0cae7a461406ffe3f5213" tvg-chno="100" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="USA",Paramount Movie Channel
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+https://livestartover.atresmedia.com/geolasexta/master.m3u8
+
+#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+http://ott.riotelecomm.es:4512/m3u8/LASEXTAHD.m3u8
+
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
+
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/LaSexta_logo.svg/320px-LaSexta_logo.svg.png",laSexta
+https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
+
+# #EXTINF:-1 tvg-id="LaSexta.es"  group-title="General",laSexta
+https://livestartover.atresmedia.com/lasexta/master.m3u8
+
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
