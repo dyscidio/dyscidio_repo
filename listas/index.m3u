@@ -5,6 +5,12 @@
 # CANALES
 ############################################
 
+#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+https://livestartover.atresmedia.com/lasexta/master.m3u8
+
+#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
+
 # --- CATALUNYA ---
 
 #EXTINF:-1 tvg-id="TV3CAT.es" group-title="Catalunya",3Cat (TV3)
