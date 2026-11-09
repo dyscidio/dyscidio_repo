@@ -6,13 +6,28 @@ EXTM3U
 
 # Pruebas
 
-#EXTINF:-1 tvg-id="5cb0cae7a461406ffe3f5213" tvg-chno="100" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="USA",Paramount Movie Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
+https://liveingesta118.cdnmedia.tv/9tvlive/smil:live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="561c5b0dada51f8004c4d855" tvg-chno="106" tvg-logo="https://images.pluto.tv/channels/561c5b0dada51f8004c4d855/colorLogoPNG.png" group-title="USA",Classic Movies Channel
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/561c5b0dada51f8004c4d855/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF:-1 tvg-logo="http://image.tmdb.org/t/p/w500/lwmCdtTvjnJZK79JKYkzkb0MFOP.jpg" tvg-group="PELICULAS", Ant-Man y la Avispa
+https://ia801400.us.archive.org/6/items/02_20210719_20210719_1751/02.mp4
+
+#EXTINF:-1 tvg-logo="http://image.tmdb.org/t/p/w500/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg" tvg-group="PELICULAS", Ant-Man: el Hombre Hormiga
+https://ia801400.us.archive.org/6/items/02_20210719_20210719_1751/01.mp4
+
+#EXTINF:-1 tvg-logo="http://image.tmdb.org/t/p/w500/yTzr6Nc4RcTXVw9SsWQNJdcjTz5.jpg" tvg-group="PELICULAS", Aquaman
+https://archive.org/download/01_20220505_20220505_2119/01.mp4
+
+# #EXTINF:-1 tvg-id="5cb0cae7a461406ffe3f5213" tvg-chno="100" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="USA",Paramount Movie Channel
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
 https://livestartover.atresmedia.com/geolasexta/master.m3u8
 
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
 http://ott.riotelecomm.es:4512/m3u8/LASEXTAHD.m3u8
 
 # #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
