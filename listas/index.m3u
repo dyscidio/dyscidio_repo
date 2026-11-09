@@ -7,7 +7,10 @@
 
 # Pruebas
 
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/LaSexta_logo.svg/320px-LaSexta_logo.svg.png",laSexta
+#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
+
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/LaSexta_logo.svg/320px-LaSexta_logo.svg.png",laSexta
 https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
 
 # #EXTINF:-1 tvg-id="LaSexta.es"  group-title="General",laSexta
