@@ -5,10 +5,15 @@
 # CANALES
 ############################################
 
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+# Pruebas
+
+#EXTINF:-1 tvg-id="LaSexta.es" group-title="General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/LaSexta_logo.svg/320px-LaSexta_logo.svg.png",laSexta
+https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
+
+# #EXTINF:-1 tvg-id="LaSexta.es"  group-title="General",laSexta
 https://livestartover.atresmedia.com/lasexta/master.m3u8
 
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
+# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
 https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
 
 # --- CATALUNYA ---
