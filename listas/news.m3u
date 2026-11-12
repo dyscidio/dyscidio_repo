@@ -4,11 +4,24 @@
 # NOTICIAS
 ############################################
 
-# ===== ESPAÑA =====
 #EXTINF:-1 tvg-id="24Horas.TV" group-title="Noticias",24 Horas RTVE
 https://ztnr.rtve.es/ztnr/1694255.m3u8
 
-#EXTM3U
+#EXTINF:0,La Sexta
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la6.mpd
+
+#EXTINF:-1 tvg-id="324.cat" group-title="Noticias | Cataluña",3CatInfo
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="Euronews.TV" tvg-name="Euronews" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Noticias",Euronews Español
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+
+#EXTINF:0,Cuatro
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/cuatro.mpd
+
+#EXTINF:0,Telecinco
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/t5.mpd
+
 #EXTINF:0,La 1
 https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la1.mpd
 
@@ -18,21 +31,8 @@ https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la2.m
 #EXTINF:0,Antena 3
 https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/a3.mpd
 
-#EXTINF:0,Cuatro
-https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/cuatro.mpd
-
-#EXTINF:0,Telecinco
-https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/t5.mpd
-
-#EXTINF:0,La Sexta
-https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la6.mpd
-
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/RadioTelevisionCanaria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="TV Canaria Net",TV Canaria Net
 https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
-
-# ===== CATALUÑA =====
-#EXTINF:-1 tvg-id="324.cat" group-title="Noticias | Cataluña",3CatInfo
-https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 
 # ===== INTERNACIONALES EN ESPAÑOL =====
 #EXTINF:-1 tvg-id="France24Espanol.fr" group-title="Noticias",France 24 Español
@@ -40,9 +40,6 @@ https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
 
 #EXTINF:-1 tvg-id="DWEspanol.de" group-title="Noticias",DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
-
-#EXTINF:-1 tvg-id="Euronews.TV" tvg-name="Euronews" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200" group-title="Noticias",Euronews Español
-https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
 
 #EXTINF:-1 tvg-id="CGTNSpanish.cn" group-title="Noticias",CGTN Español
 https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist1080p.m3u8
