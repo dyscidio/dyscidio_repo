@@ -7,7 +7,6 @@
 
 # Pruebas
 
-#EXTM3U
 #EXTINF:0,La 1
 https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la1.mpd
 #EXTINF:0,La 2
