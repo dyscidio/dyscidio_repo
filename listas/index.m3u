@@ -7,68 +7,40 @@
 
 # Pruebas
 
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
-https://livestartover.atresmedia.com/geolasexta/master.m3u8
-
-#EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
-http://ott.riotelecomm.es:4512/m3u8/LASEXTAHD.m3u8
-
-# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
-http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
-
-# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/LaSexta_logo.svg/320px-LaSexta_logo.svg.png",laSexta
-https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
-
-# #EXTINF:-1 tvg-id="LaSexta.es"  group-title="General",laSexta
-https://livestartover.atresmedia.com/lasexta/master.m3u8
-
-# #EXTINF:-1 tvg-id="LaSexta.es" group-title="General",laSexta
-https://atresplayerp-i.akamaized.net/lasextampp/bitrate_3.m3u8
-
-# --- CATALUNYA ---
-
-#EXTINF:-1 tvg-id="TV3CAT.es" group-title="Catalunya",3Cat (TV3)
-https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="324.es" group-title="Catalunya",3/24
-https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="BonDiaTV.es" group-title="Catalunya",Bon Dia
-https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="El33.es" group-title="Catalunya",El 33
-https://directes-tv-cat.3catdirectes.cat/live-origin/c33-super3-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="Esport3.es" group-title="Catalunya",Esport3
-https://directes-tv-es.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="SX3.es" group-title="Infantiles",SX3
-https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
-
-#EXTINF:-1 tvg-id="La2Catalunya.es" group-title="Cultura",La 2 Catalunya
-https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8
-
-# --- AUTONOMICAS ---
-
-#EXTINF:-1 tvg-id="CanalExtremadura.es" group-title="Autonomicas",Canal Extremadura
-https://d2ymuyhevki1a1.cloudfront.net/wct-ddd2992e-86fc-4611-a491-7f392259e9ba/continuous/9be76611-d2cd-474d-bf19-ef702ba31b02/index.m3u8
-
-#EXTINF:-1 tvg-id="AragonTV.es" group-title="Autonomicas",Aragon TV
-https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
-
-#EXTINF:-1 tvg-id="APunt.es" group-title="Autonomicas",A Punt TV
-https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
-
-# --- NACIONALES ---
-
-#EXTINF:-1 group-title="Nacional" tvg-id="LA 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/281px-Logo_TVE-1.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml",La 1
-https://rtvelivestream.akamaized.net/la1_dvr.m3u8
-
-#EXTINF:-1 group-title="Nacional" tvg-id="LA 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/320px-Logo_TVE-2.svg.png" url-epg="https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml",La 2
-https://rtvelivestream.akamaized.net/la2_dvr.m3u8
-
-#EXTINF:-1 tvg-id="24Horas.TV" group-title="Noticias",24 Horas RTVE
-https://ztnr.rtve.es/ztnr/1694255.m3u8
-
-#EXTINF:-1 tvg-name="LA SEXTA HD" group-title="TDT",LA SEXTA HD
-http://109.205.187.47:8008/sunshine/[TOKEN_TEMPORAL]/hls/index.m3u8
+#EXTM3U
+#EXTINF:0,La 1
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la1.mpd
+#EXTINF:0,La 2
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la2.mpd
+#EXTINF:0,Antena 3
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/a3.mpd
+#EXTINF:0,Cuatro
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/cuatro.mpd
+#EXTINF:0,Telecinco
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/t5.mpd
+#EXTINF:0,La Sexta
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la6.mpd
+#EXTINF:0,Nova
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/nova.mpd
+#EXTINF:0,Neox
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/neox.mpd
+#EXTINF:0,Divinity
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/dvnty.mpd
+#EXTINF:0,FDF
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/fdf.mpd
+#EXTINF:0,Atreseries
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/a3s.mpd
+#EXTINF:0,MEGA
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/mega.mpd
+#EXTINF:0,Energy
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/energy.mpd
+#EXTINF:0,Clan
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/clan.mpd
+#EXTINF:0,Teledeporte
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/tdp.mpd
+#EXTINF:0,24h
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/24h.mpd
+#EXTINF:0,Be Mad
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/bmad.mpd
+#EXTINF:0,Boing
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/boing.mpd
