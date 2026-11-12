@@ -8,6 +8,25 @@
 #EXTINF:-1 tvg-id="24Horas.TV" group-title="Noticias",24 Horas RTVE
 https://ztnr.rtve.es/ztnr/1694255.m3u8
 
+#EXTM3U
+#EXTINF:0,La 1
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la1.mpd
+
+#EXTINF:0,La 2
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la2.mpd
+
+#EXTINF:0,Antena 3
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/a3.mpd
+
+#EXTINF:0,Cuatro
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/cuatro.mpd
+
+#EXTINF:0,Telecinco
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/t5.mpd
+
+#EXTINF:0,La Sexta
+https://cdn.jsdelivr.net/gh/FreakinGuns/listacanalestdtiptv@main/manifests/la6.mpd
+
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/RadioTelevisionCanaria/picture?width=200&height=200" group-title="Int. Europa" tvg-name="TV Canaria Net",TV Canaria Net
 https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
 
